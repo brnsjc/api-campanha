@@ -34,6 +34,7 @@ Fluxo
 
 Documentacao
 * Api com rotas e model documentadas em : http://localhost:8080/swagger-ui.html
+* Collection Postman para teste : https://www.postman.com/collections/dd1032ebf4c98696c0a5
 
 
 
