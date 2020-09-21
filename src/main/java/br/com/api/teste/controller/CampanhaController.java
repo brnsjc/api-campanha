@@ -71,6 +71,7 @@ public class CampanhaController {
 		return campanhaService.inserirCampanha(campanhaResponse);
 	}
 	
+	@PostMapping(value ="/deletarCampanha")
 	public CampanhaResponse deletarCampanha(@RequestBody CampanhaResponse campanhaResponse) {
 		
 		campanhaService.deletarCampanhaById(campanhaResponse.getId_campanha());

@@ -54,10 +54,12 @@ public class CampanhaService {
 		return campanhaResponse;
 	}
 
-	public void deletarCampanhaById(int id_campanha) {
+	public String deletarCampanhaById(int id_campanha) {
 	
-		
+		campanhaResp.setId_campanha(id_campanha);
 		campanhaBusiness.deletarCampanhaById(id_campanha);
+		
+		return "deletado";
 		
 	}
 }

@@ -4,6 +4,22 @@
 # Log file
 *.log
 
+.project/
+.settings/
+
+.attach_pid23142
+.attach_pid24032
+.attach_pid24125
+.attach_pid26137
+.attach_pid26429
+.attach_pid28140
+
+.factorypath
+.classpath
+.project
+
+
+
 # BlueJ files
 *.ctxt
 
